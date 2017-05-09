@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header">100dp</dimen>
+    <dimen name="gridheight">150dp</dimen>
+    <dimen name="userimage_margin">50dp</dimen>
+    <dimen name="navtextsize">16sp</dimen>
+    <dimen name="largetextsize">18sp</dimen>
+    <dimen name="margintop">15dp</dimen>
+    <dimen name="marginsmall">5dp</dimen>
+    <dimen name="marginnormal">10dp</dimen>
+    <dimen name="marginlarge">20dp</dimen>
+    <dimen name="smalltextsize">13sp</dimen>
+    <dimen name="marginextralarge">30dp</dimen>
+    <dimen name="marginverysmall">3dp</dimen>
+    <dimen name="verysmalltext">10sp</dimen>
+    <dimen name="floatingmargin">60dp</dimen>
+
+</resources>

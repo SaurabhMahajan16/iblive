@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_request">
+
+    <RelativeLayout
+        android:id="@+id/navigation_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/header"
+
+            android:background="@color/dark_green_blue">
+
+        </LinearLayout>
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/ib_user_image"
+            style="@style/headerNavigation"
+            android:src="@drawable/placeholder" />
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/marginsmall"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tv_username"
+        style="@style/navContent"
+        android:layout_marginTop="@dimen/margintop"
+        android:gravity="center"
+        android:textSize="@dimen/largetextsize"
+        android:textColor="@color/greeny_blue"
+        android:text="@string/user"
+        android:background="@color/white"
+        />
+    <TextView
+        android:id="@+id/tv_place"
+       style="@style/navContent"
+        android:text="@string/place"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingStart="35dp"
+        android:drawableRight="@drawable/edit_icon"
+        android:background="@color/white"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marginsmall"
+        android:orientation="vertical"
+
+        >
+
+
+    <TextView
+        android:id="@+id/tv_home"
+        style="@style/navContent"
+        android:text="@string/home"
+        android:drawableEnd="@drawable/home_icon"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        />
+        <TextView
+            android:id="@+id/tv_cards"
+            style="@style/navContent"
+            android:text="@string/cards"
+            android:drawableEnd="@drawable/card_icon"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+
+            />
+        <TextView
+            android:id="@+id/tv_support"
+            style="@style/navContent"
+            android:layout_marginTop="@dimen/marginextralarge"
+            android:text="@string/support"
+            android:drawableEnd="@drawable/phone_icon"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/tv_request"
+           style="@style/navContent"
+            android:text="@string/request"
+            android:drawableEnd="@drawable/profile_icon_3"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/tv_share"
+            style="@style/navContent"
+            android:text="@string/share"
+            android:layout_marginTop="@dimen/marginextralarge"
+            android:drawableEnd="@drawable/profile_icon"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            />
+        <TextView
+            android:id="@+id/tv_logout"
+            style="@style/navContent"
+            android:text="@string/logout"
+            android:drawableEnd="@drawable/profile_icon_2"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+</LinearLayout>

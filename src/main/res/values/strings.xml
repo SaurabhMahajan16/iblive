@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">iblive</string>
+    <string name="search_hint">Where would you connect</string>
+    <string name="user">John</string>
+    <string name="place">Paris</string>
+    <string name="home">Home</string>
+    <string name="cards">Cards/Subscriptions</string>
+    <string name="support">Support</string>
+    <string name="request">My Request</string>
+    <string name="share">Share</string>
+    <string name="logout">Logout</string>
+    <string name="explore">Explore Paris</string>
+    <string name="loremipsum">Lorem ipsum dolor sit amet, consectetur lorem ipsum
+dolor sit amet, consectetur lorem ipsum.</string>
+    <string name="timer">6d 2h left</string>
+    <string name="review">222 Reviews</string>
+    <string name="send_request">Send Request</string>
+    <string name="discover">Discover</string>
+    <string name="map">Map</string>
+    <string name="posts">My Post</string>
+    <string name="myrequests">Requset</string>
+    <string name="network">My Network</string>
+    <string name="guideme">Guide"\n"me</string>
+    <string name="data">Data</string>
+    <string name="mode">Mode</string>
+    <string name="rome">Rome</string>
+    <string name="london">London</string>
+    <string name="location">Location</string>
+    <string name="frankfurt">Frankfurt</string>
+    <string name="my_posts">Posts</string>
+    <string name="mynetwork">Network</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="request_map_show">Show On Map</string>
+    <string name="request_lorem">Lorem ipsum is just the dummy"\n"text used in print typeseting</string>
+    <string name="location_request">1097, St. Peter Street,"\n"CA </string>
+    <string name="evelyn">Evelyn</string>
+    <string name="connect">Connect</string>
+</resources>
+
+

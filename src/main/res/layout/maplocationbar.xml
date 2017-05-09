@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/marginnormal"
+    >
+    <TextView
+        android:id="@+id/tv_location"
+       style="@style/searchBar"
+        android:background="@drawable/location_bar_shape"
+        android:paddingTop="@dimen/marginnormal"
+        android:drawableStart="@drawable/ic_location_on_white_24dp"
+        android:gravity="bottom"
+        android:drawablePadding="@dimen/marginnormal"
+        android:textSize="@dimen/smalltextsize"
+        />
+        <TextView
+            style="@style/wrap"
+            android:text="@string/location"
+            android:textSize="@dimen/verysmalltext"
+            android:textColor="@color/dark_green_blue"
+            android:layout_marginTop="@dimen/marginverysmall"
+            android:layout_marginStart="40dp"
+           android:layout_alignTop="@id/tv_location"
+            />
+
+</RelativeLayout>

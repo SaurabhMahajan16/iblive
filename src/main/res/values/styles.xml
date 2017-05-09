@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Header">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#574751</item>
+    </style>
+
+    <style name="fillparent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+
+
+    </style>
+
+    <style name="activebottom">
+        <item name="android:background">@color/dark_green_blue</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">5dp</item>
+    </style>
+
+    <style name="toolbarLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/marginnormal</item>
+        <item name="android:background">@color/dark_green_blue</item>
+
+    </style>
+    <style name="searchBar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:textColorHint">@color/greeny_blue</item>
+    </style>
+    <style name="wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="navDrawerlayout">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+    <style name="icon_layout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="headerNavigation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/userimage_margin</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+
+
+    </style>
+    <style name="navContent">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/navtextsize</item>
+        <item name="android:paddingTop">@dimen/marginsmall</item>
+        <item name="android:textColor">@color/navtextcolor</item>
+    </style>
+    <style name="contentdiscoverheader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/largetextsize</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="discovercontent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/smalltextsize</item>
+        <item name="android:padding">@dimen/marginnormal</item>
+        <item name="android:textColor">@color/navtextcolor</item>
+    </style>
+    <style name="floatingbutton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/marginnormal</item>
+        <item name="android:backgroundTint">@color/greeny_blue</item>
+    </style>
+    <style name="fragmentButtonLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textSize">@dimen/navtextsize</item>
+        <item name="android:textColor">@color/dark_green_blue</item>
+    </style>
+    <style name="showmap">
+        <item name="android:background">@color/greeny_blue</item>
+    </style>
+    <style name="network_recycler_green_txt">
+        <item name="android:textColor">@color/greeny_blue</item>
+        <item name="android:gravity">bottom</item>
+
+    </style>
+    <style name="network_black_txt">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/smalltextsize</item>
+    </style>
+    <style name="half_curved_of_network">
+        <item name="android:textColor">@color/white</item>
+
+        <item name="android:background">@drawable/half_curved_button</item>
+    </style>
+</resources>

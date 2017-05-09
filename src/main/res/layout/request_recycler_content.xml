@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/marginnormal"
+        android:layout_marginEnd="@dimen/marginnormal"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/marginlarge"
+            android:layout_marginBottom="@dimen/marginlarge"
+            android:background="@drawable/curved_boundary">
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ivProfile"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/paris"
+            app:civ_border_color="@color/bg_request"
+            app:civ_border_width="4dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvProfileDiscription"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/marginverysmall"
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/marginsmall"
+                android:background="@drawable/curved_round_green_button"
+                android:padding="@dimen/marginnormal"
+                android:paddingEnd="@dimen/marginnormal"
+                android:paddingStart="@dimen/marginnormal"
+                android:text="@string/accept"
+
+                android:textColor="@color/white"
+                android:textSize="@dimen/smalltextsize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/marginsmall"
+                android:background="@drawable/curved_round_red_button"
+                android:padding="@dimen/marginnormal"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:text="@string/reject"
+                android:textColor="@color/white"
+                android:textSize="@dimen/smalltextsize" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvExploreLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="@dimen/marginverysmall"
+            android:drawableStart="@drawable/location_icon_small"
+            android:gravity="center"
+            android:padding="@dimen/marginverysmall"
+            android:text="@string/location_request"
+            android:layout_below="@+id/llProfileName"
+            android:layout_alignEnd="@+id/linearLayout" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@id/tvExploreLocation"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/left_round_showmap_btn"
+            android:padding="@dimen/marginverysmall"
+            android:layout_marginEnd="@dimen/marginnormal"
+            android:text="@string/request_map_show"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvExploreDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvExploreLocation"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/marginverysmall"
+            android:drawableStart="@drawable/time_icon_small"
+            android:padding="@dimen/marginsmall"
+            android:text="@string/timer" />
+
+        <TextView
+            android:id="@+id/tvProfileDiscription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvExploreDuration"
+            android:gravity="bottom"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="@dimen/marginsmall"
+            android:drawableStart="@drawable/reviewa_icon_small"
+            android:padding="@dimen/marginverysmall"
+            android:text="@string/request_lorem" />
+
+
+        <LinearLayout
+            android:id="@+id/llProfileName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ivProfile"
+            android:layout_centerHorizontal="true"
+            android:padding="@dimen/marginsmall">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/user"
+                android:gravity="top"
+                android:layout_marginEnd="@dimen/marginverysmall"
+                />
+
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="@style/discovercontent"
+                android:progressDrawable="@drawable/custom_ratingbar_selector"
+                android:numStars="5"
+                android:padding="0dp"
+                android:stepSize="0.5"
+                android:layout_height="27dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

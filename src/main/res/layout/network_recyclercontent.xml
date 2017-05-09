@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_network"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    android:paddingEnd="0dp"
+    android:padding="@dimen/marginnormal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/paris" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@style/discovercontent"
+        android:layout_height="27dp"
+        android:layout_alignParentEnd="true"
+        android:numStars="5"
+        android:padding="0dp"
+        android:progressDrawable="@drawable/custom_ratingbar_selector"
+        android:stepSize="0.5" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/ratingBar"
+        android:background="@drawable/half_curved_button"
+        android:gravity="center"
+        android:padding="@dimen/marginnormal"
+        android:text="@string/connect"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTravler"
+        android:layout_marginStart="@dimen/marginnormal"
+        android:layout_toEndOf="@+id/profile_image"
+        android:drawableStart="@drawable/location_icon_small"
+        android:gravity="center_vertical"
+        android:padding="@dimen/marginverysmall"
+        android:text="@string/place" />
+
+    <TextView
+        android:id="@+id/tvTravler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginlarge"
+        android:layout_marginTop="@dimen/marginsmall"
+        android:layout_toEndOf="@+id/profile_image"
+        android:padding="@dimen/marginverysmall"
+        android:text="@string/evelyn"
+        android:textColor="@color/dark_green_blue" />
+
+
+</RelativeLayout>

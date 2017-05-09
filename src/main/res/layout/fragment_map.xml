@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/loaction_bar"
+        layout="@layout/maplocationbar" />
+    <Button
+        style="@style/wrap"
+        android:background="@drawable/guide_me"
+        android:layout_below="@id/loaction_bar"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/marginnormal"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:text="@string/guideme"
+
+        />
+
+    <fragment
+        android:id="@+id/map_view"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_below="@id/loaction_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        style="@style/wrap"
+        android:background="@drawable/send_request"
+        android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/marginnormal"
+        android:text="@string/send_request"
+        android:padding="@dimen/marginlarge"
+        android:textColor="@color/white"
+        />
+
+
+</RelativeLayout>
